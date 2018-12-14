@@ -1,0 +1,48 @@
+{
+  "pages": [
+    "pages/index/main",
+    "pages/Other/main",
+    "pages/Commit/main",
+    "pages/Me/main",
+    "pages/myMsg/main",
+    "pages/myCollection/main",
+    "pages/myShare/main",
+    "pages/adviseUs/main"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#009999",
+    "navigationBarTitleText": "蜗壳分享",
+    "navigationBarTextStyle": "white",
+    "enablePullDownRefresh":true
+  },
+  "tabBar": {
+    "selectedColor":"#009999",
+    "list":[
+      {
+        "pagePath": "pages/index/main",
+        "text": "首页",
+        "iconPath":"static/img/home.png",
+        "selectedIconPath":"static/img/home-active.png"
+      },
+      {
+        "pagePath": "pages/Commit/main",
+        "text": "发布",
+        "iconPath":"static/img/todo.png",
+        "selectedIconPath":"static/img/todo-active.png"
+      },
+      {
+        "pagePath": "pages/Other/main",
+        "text": "其他",
+        "iconPath":"static/img/other.png",
+        "selectedIconPath":"static/img/other-active.png"
+      },
+      {
+        "pagePath": "pages/Me/main",
+        "text": "我",
+        "iconPath":"static/img/me.png",
+        "selectedIconPath":"static/img/me-active.png"
+      }
+    ]
+  }
+}
